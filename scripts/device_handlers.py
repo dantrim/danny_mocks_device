@@ -18,6 +18,13 @@ class SCPIDevice :
     def __init__(self) :
         pass
 
+    # each of the defined methods should be implementations
+    # of a base "Device" class, such that the API matches
+    # to what labRemote expects...
+
+    # registering the types in the decorators is probably superfluous, since
+    # we can just infer the class type
+
     # the idea is that the device will listen for commands from the user code
     # and then loop over the registered handlers, performing some matching
     # criteria (e.g. regex) against the handler string and the cmd string,
