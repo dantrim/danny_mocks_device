@@ -14,5 +14,5 @@ the file descriptor.
 
 # References/Inspiration
 A lot of the idea for this, at least for how to register handlers properly
-and somewhat generically, is from [pyvisa-mock](https://github.com/microsoft/pyvisa-mock) (
-specifically it's [mock SCPI handler](https://github.com/microsoft/pyvisa-mock/blob/9c8fb8efc7740fcbfb3293fedafe9c4066ba7ee5/visa_mock/base/base_mocker.py#L36).
+and somewhat generically, is from [pyvisa-mock](https://github.com/microsoft/pyvisa-mock)
+(specifically it's [mock SCPI handler](https://github.com/microsoft/pyvisa-mock/blob/9c8fb8efc7740fcbfb3293fedafe9c4066ba7ee5/visa_mock/base/base_mocker.py#L36)).
